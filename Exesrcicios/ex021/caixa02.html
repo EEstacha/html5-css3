@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: darkgray;
+            margin: 0px;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav{
+            background-color: rgb(102, 95, 95);
+            padding: 3px;
+            box-shadow: 2px 2px 2px black;
+
+        }
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+        }
+        h1{
+            box-shadow: 7px 8px 8px rgba(0, 0, 0, 0.486);
+        }
+
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 20px 10px 0px;
+            box-shadow: 4px 8px 9px black;
+        }
+        article{
+            background-color: lightgrey;
+            padding: 5px;
+        }
+        article > aside{
+            background-color: rgb(165, 165, 165);
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            font-size: smaller;
+
+        }
+    </style>
+</head>
+<body>
+   <header>
+       <h1>Meu Site</h1>
+       <nav>
+           <a href="https://www.youtube.com/watch?v=n0rjAs_Im4w&list=PLHz_AreHm4dlUpEXkY1AyVLQGcpSgVF8s&index=29" target="_blank">Link</a>
+           <a href="#">Link</a>
+           <a href="#">Link</a>
+           <a href="#">Link</a>
+           <a href="#">Link</a>
+       </nav>
+   </header>
+   <main>
+        <section id="assuntos">
+            <p>Desporto  Cultura  Tecnologia</p>
+            <article>
+                <h2>Noticias sobre Mozambique</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi aliquid iure cumque accusantium voluptatum dolores, dicta aperiam facilis, impedit consectetur repudiandae nam! Quam id quaerat aut magni tempora odit consequuntur?</p>
+                <aside>
+                    Artigo escrito por Fernando Ibrahimo
+                </aside>
+            </article>
+        </section>
+   </main>
+   <footer>
+       <p>Desenvolvido por Estacha & Marina Enterprise</p>
+   </footer>
+</body>
+</html>

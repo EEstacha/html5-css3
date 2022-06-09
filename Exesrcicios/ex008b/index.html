@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras Formatacoes</title>
+</head>
+<body>
+    <h1>Outras Formatacoes</h1>
+    <h2>Codigo-Fonte</h2>
+    <p>O Codigo-Fonte deve ser transformado numa fonte monoespacado usando a tag code </p>
+    <p>O comando <code>document.getElementById('Teste')</code> é escrito em linguagem Javascript.</p>
+    <p>com o comando "Code" sem <strong>"pre"</strong>, o resultado será uma linha de comandos sem o formato de codigo parecendo um texto qualquer.</p>
+    <code>
+        num=int(input('Digite um numro'))
+        if num % 2 == 0:
+             print(f'o nunero{num} e par')
+        else:
+            print(f'o numero{num} e impar')
+        print('fim do programa')
+    </code>
+    <p>Para alterar a situcão anterior temos que introduzir uma nova TAG chamada "PRE".</p>
+    <p>teclas de atalho mesclando PRE e CODE</p>
+    <pre>
+        <code>
+    num=int(input('Digite um numro'))
+    if num % 2 == 0:
+        print(f'o nunero{num} e par')
+    else:
+        print(f'o numero{num} e impar')
+    print('fim do programa')
+        </code>
+    </pre>
+    <h2>Citacões</h2>
+    <p>Como diria pai dum amigo o <q>computador é um burro muito rapido</q>. Inserindo este TAG q, o HTML poe entre aspas o que estiver entre o TAG em alusão</p>
+    <h2>Citacões Complementares</h2>
+    <p>segundo jeff Mable no seu livro HTML para leigo</p>
+    <blockquote cite="https://books.google.com.br">
+    a diferenca entre elementos inline e blocos de textos e importante.
+</blockquote>
+<h2>Abreviacoes</h2>
+<p>Estou estudando<abbr title="HyperText Markup Language"> HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Estou adorando.</p>
+<h2>Texto invertido</h2>
+<p><bdo dir="ltr">Desenvolvendo em HTML.</bdo></p>
+<p><bdo dir="rtl">Desenvolvendo em HTML.</bdo></p>
+<abbr title="Instituto Inddustrial e Comercial da Beira"> IICB</abbr><br>
+<bdo dir="ltr">Fernando Estacha e Ibraimo Estacha</bdo><br><bdo dir="rtl">Fernando Estacha e Ibraimo Estacha</bdo>
+</body>
+</html>
