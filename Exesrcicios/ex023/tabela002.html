@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            width: 500px;
+            border-collapse: collapse;
+        }
+        caption {
+            background-color: lightgrey;
+            padding: 10px;
+            font-weight: bold;
+            font-size: 1.5em;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+        td.num {
+            text-align: right;
+        }
+        tbody > tr:nth-child(odd) {
+            background-color: white;
+        }
+        tbody > tr:nth-child(even) {
+            background-color: lightgray;
+        }
+        thead, tfoot {
+            background-color: rgb(37, 35, 35);
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas Grandes</h1>
+    <!--
+        ANATOMIA PARA TABELAS GRANDES
+        TABLE
+            CAPTION
+            THEAD
+                TR, TD, TH
+            TBODY
+                TR, TD, TH
+            TFOOT
+                TR, TD, TH
+    -->
+    <table>
+        <caption>Populacão Mocambicana por Províncias</caption>
+        <thead>
+            <tr>
+                <th scope="col">Províncias</th>
+                <th scope="col" style="width: 75px; ;">Habitantes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Cidade de Maputo</td>
+                <td class="num">ooooo</td>
+            </tr>
+            <tr>
+                <td>Maputo</td>
+                <td class="num">111111</td>
+            </tr>
+            <tr>
+                <td>Gaza</td>
+                <td class="num">222222</td>
+            </tr>
+            <tr>
+                <td>Inhambane</td>
+                <td class="num">333333</td>
+            </tr>
+            <tr>
+                <td>Sofala</td>
+                <td class="num">444444</td>
+            </tr>
+            <tr>
+                <td>Manica</td>
+                <td class="num">555555</td>
+            </tr>
+            <tr>
+                <td>Tete</td>
+                <td class="num">666666</td>
+            </tr>
+            <tr>
+                <td>Zambézia</td>
+                <td class="num">777777</td>
+            </tr>
+            <tr>
+                <td>Nampula</td>
+                <td class="num">888888</td>
+            </tr>
+            <tr>
+                <td>C. Delgado</td>
+                <td class="num">999999</td>
+            </tr>
+            <tr>
+                <td>Niassa</td>
+                <td class="num">101010</td>
+            </tr>
+
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total de Habitantes</th>
+                <td class="num">9999999</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
