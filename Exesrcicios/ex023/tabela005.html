@@ -5,9 +5,97 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercicios de Tabela</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            width: 500px;
+            border-collapse: collapse;
+        }
+        caption {
+            font-size: 1.2em;
+            font-weight: bold;
+            padding: 20px;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+        .cprofissao {
+            background-color: yellow;
+        }
+        .cnome {
+            background-color: limegreen;
+        }
+        th {
+            background-color: dimgray;
+        }
+    </style>
 </head>
 <body>
-    <h1> destaque por Coluna</h1>
+    <h1>Exercício de Tabelas</h1>
+    <table>
+        <colgroup>
+            <col class="cnome" span="2">
+            <col class="cprofissao" span="2">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <thead>
+            <tr>
+                <th scope="col">Nome</th>
+                <th scope="col">Sexo</th>
+                <th scope="col">Idade</th>
+                <th scope="col">Profissão</th>
+            </tr>
+        
+        </thead>
+        <tbody>
+            <tr>
+                <td>Marina</td>
+                <td>F</td>
+                <td>3</td>
+                <td>Estudante</td>
+            </tr>  
+            <tr>
+                <td>Ibrahimo</td>
+                <td>M</td>
+                <td>20</td>
+                <td>Estudante</td>
+            </tr>  
+            <tr>
+                <td>Fernando</td>
+                <td>M</td>
+                <td>28</td>
+                <td>Medico</td>
+            </tr>  
+            <tr>
+                <td>Hawa</td>
+                <td>F</td>
+                <td>39</td>
+                <td>Contabilista</td>
+            </tr>  
+            <tr>
+                <td>Francisco</td>
+                <td>M</td>
+                <td>31</td>
+                <td>Professor</td>
+            </tr>  
+            <tr>
+                <td>Lucas</td>
+                <td>M</td>
+                <td>33</td>
+                <td>Electricista</td>
+            </tr>  
+            <tr>
+                <td>Joana</td>
+                <td>F</td>
+                <td>35</td>
+                <td>Jurísta</td>
+            </tr>  
+        </tbody>
+    </table>
     
 </body>
 </html>
